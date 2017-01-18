@@ -1,8 +1,0 @@
-PROJECT_DIR=/Users/weichengniandashu/develop/X264_Build
-TARGETNAME=x264
-PROJECT_FILE_PATH=/Users/weichengniandashu/develop/X264_Build/X264_Build.xcodeproj
-GROUP=x264
-arch=arm64
-StaticFile=/Users/weichengniandashu/develop/X264_Build/staticFile.txt
-rubyFile=/Users/weichengniandashu/develop/X264_Build/PraseProduct.rb
-DidBuild=yes

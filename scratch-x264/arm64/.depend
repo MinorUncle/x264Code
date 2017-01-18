@@ -1,0 +1,766 @@
+common/mc.o: ../../x264-master/common/mc.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/common/aarch64/mc.h
+common/predict.o: ../../x264-master/common/predict.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/common/aarch64/predict.h
+common/pixel.o: ../../x264-master/common/pixel.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/common/aarch64/pixel.h \
+  ../../x264-master/common/aarch64/predict.h
+common/macroblock.o: ../../x264-master/common/macroblock.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/frame.o: ../../x264-master/common/frame.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/dct.o: ../../x264-master/common/dct.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/common/aarch64/dct.h
+common/cpu.o: ../../x264-master/common/cpu.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/cabac.o: ../../x264-master/common/cabac.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/common.o: ../../x264-master/common/common.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/osdep.o: ../../x264-master/common/osdep.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/rectangle.o: ../../x264-master/common/rectangle.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/set.o: ../../x264-master/common/set.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/quant.o: ../../x264-master/common/quant.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/common/aarch64/quant.h
+common/deblock.o: ../../x264-master/common/deblock.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/vlc.o: ../../x264-master/common/vlc.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/mvpred.o: ../../x264-master/common/mvpred.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/bitstream.o: ../../x264-master/common/bitstream.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+encoder/analyse.o: ../../x264-master/encoder/analyse.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/encoder/macroblock.h ../../x264-master/encoder/me.h \
+  ../../x264-master/encoder/ratecontrol.h \
+  ../../x264-master/encoder/analyse.h ../../x264-master/encoder/rdo.c \
+  ../../x264-master/encoder/cavlc.c ../../x264-master/encoder/cabac.c \
+  ../../x264-master/encoder/slicetype.c
+encoder/me.o: ../../x264-master/encoder/me.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/encoder/macroblock.h ../../x264-master/encoder/me.h
+encoder/ratecontrol.o: ../../x264-master/encoder/ratecontrol.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/encoder/ratecontrol.h ../../x264-master/encoder/me.h
+encoder/set.o: ../../x264-master/encoder/set.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h ../../x264-master/encoder/set.h
+encoder/macroblock.o: ../../x264-master/encoder/macroblock.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/encoder/macroblock.h
+encoder/cabac.o: ../../x264-master/encoder/cabac.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/encoder/macroblock.h
+encoder/cavlc.o: ../../x264-master/encoder/cavlc.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/encoder/macroblock.h
+encoder/encoder.o: ../../x264-master/encoder/encoder.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h ../../x264-master/encoder/set.h \
+  ../../x264-master/encoder/analyse.h \
+  ../../x264-master/encoder/ratecontrol.h \
+  ../../x264-master/encoder/macroblock.h ../../x264-master/encoder/me.h
+encoder/lookahead.o: ../../x264-master/encoder/lookahead.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/encoder/analyse.h
+common/threadpool.o: ../../x264-master/common/threadpool.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+common/aarch64/asm-offsets.o: \
+  ../../x264-master/common/aarch64/asm-offsets.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/common/aarch64/asm-offsets.h
+common/aarch64/mc-c.o: ../../x264-master/common/aarch64/mc-c.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/common/aarch64/mc.h
+common/aarch64/predict-c.o: ../../x264-master/common/aarch64/predict-c.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/common/aarch64/predict.h \
+  ../../x264-master/common/aarch64/pixel.h
+common/opencl.o: ../../x264-master/common/opencl.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h common/oclobj.h
+encoder/slicetype-cl.o: ../../x264-master/encoder/slicetype-cl.c \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/encoder/macroblock.h ../../x264-master/encoder/me.h
+x264.o: ../../x264-master/x264.c ../../x264-master/common/common.h \
+  ../../x264-master/common/osdep.h config.h ../../x264-master/x264.h \
+  x264_config.h ../../x264-master/common/opencl.h \
+  ../../x264-master/extras/cl.h ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h ../../x264-master/x264cli.h \
+  ../../x264-master/input/input.h ../../x264-master/output/output.h \
+  ../../x264-master/filters/filters.h \
+  ../../x264-master/filters/video/video.h
+input/input.o: ../../x264-master/input/input.c \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+input/timecode.o: ../../x264-master/input/timecode.c \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+input/raw.o: ../../x264-master/input/raw.c \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+input/y4m.o: ../../x264-master/input/y4m.c \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+output/raw.o: ../../x264-master/output/raw.c \
+  ../../x264-master/output/output.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
+output/matroska.o: ../../x264-master/output/matroska.c \
+  ../../x264-master/output/output.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/output/matroska_ebml.h
+output/matroska_ebml.o: ../../x264-master/output/matroska_ebml.c \
+  ../../x264-master/output/output.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/output/matroska_ebml.h
+output/flv.o: ../../x264-master/output/flv.c \
+  ../../x264-master/output/output.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/output/flv_bytestream.h
+output/flv_bytestream.o: ../../x264-master/output/flv_bytestream.c \
+  ../../x264-master/output/output.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/output/flv_bytestream.h
+filters/filters.o: ../../x264-master/filters/filters.c \
+  ../../x264-master/filters/filters.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h
+filters/video/video.o: ../../x264-master/filters/video/video.c \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h
+filters/video/source.o: ../../x264-master/filters/video/source.c \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h
+filters/video/internal.o: ../../x264-master/filters/video/internal.c \
+  ../../x264-master/filters/video/internal.h \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h
+filters/video/resize.o: ../../x264-master/filters/video/resize.c \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h
+filters/video/cache.o: ../../x264-master/filters/video/cache.c \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h \
+  ../../x264-master/filters/video/internal.h
+filters/video/fix_vfr_pts.o: \
+  ../../x264-master/filters/video/fix_vfr_pts.c \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h \
+  ../../x264-master/filters/video/internal.h
+filters/video/select_every.o: \
+  ../../x264-master/filters/video/select_every.c \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h
+filters/video/crop.o: ../../x264-master/filters/video/crop.c \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h
+filters/video/depth.o: ../../x264-master/filters/video/depth.c \
+  ../../x264-master/filters/video/video.h \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h \
+  ../../x264-master/filters/filters.h
+input/thread.o: ../../x264-master/input/thread.c \
+  ../../x264-master/input/input.h ../../x264-master/x264cli.h \
+  ../../x264-master/common/common.h ../../x264-master/common/osdep.h \
+  config.h ../../x264-master/x264.h x264_config.h \
+  ../../x264-master/common/opencl.h ../../x264-master/extras/cl.h \
+  ../../x264-master/extras/cl_platform.h \
+  ../../x264-master/common/cabac.h ../../x264-master/common/bitstream.h \
+  ../../x264-master/common/set.h ../../x264-master/common/predict.h \
+  ../../x264-master/common/pixel.h ../../x264-master/common/mc.h \
+  ../../x264-master/common/frame.h ../../x264-master/common/dct.h \
+  ../../x264-master/common/quant.h ../../x264-master/common/cpu.h \
+  ../../x264-master/common/threadpool.h \
+  ../../x264-master/common/macroblock.h \
+  ../../x264-master/common/rectangle.h
